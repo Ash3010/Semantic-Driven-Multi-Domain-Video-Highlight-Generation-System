@@ -58,15 +58,6 @@ Outputs go to: `outputs/<run_id>/`
 
 ---
 
-## 4) Training (optional – not required for the demo)
-This demo uses pretrained models (fastest + most reliable). If you want training:
-- Start with datasets like **TVSum** or **SumMe**.
-- Extract the same features (audio/visual/semantic), then train a lightweight ranker/regressor.
-
-See: `docs/TRAINING_GUIDE.md`
-
----
-
 ## Troubleshooting
 - If export fails: ensure `ffmpeg` is installed.
 - If transcription is slow: choose `tiny` model in the UI.
