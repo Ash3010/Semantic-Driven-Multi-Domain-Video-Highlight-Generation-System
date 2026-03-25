@@ -58,7 +58,7 @@ Outputs go to: `outputs/<run_id>/`
 
 ---
 
-## Troubleshooting
+## Troubleshooting 
 - If export fails: ensure `ffmpeg` is installed.
 - If transcription is slow: choose `tiny` model in the UI.
 - If video has no speech: the semantic module falls back and uses audio/visual cues.
